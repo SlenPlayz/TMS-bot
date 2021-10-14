@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity({ name: 'Good luck for EOY! You can do it!!!', type: 'PLAYING'});
+  //client.user.setActivity({name:'FTE is over!!', type: 'PLAYING'});
 })
 client.on('message', msg => {
   switch (msg.content) {
